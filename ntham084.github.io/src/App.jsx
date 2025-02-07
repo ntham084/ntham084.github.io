@@ -1,4 +1,4 @@
-
+import AnimatedText from "./animatedtext"
 
 function App() {
   
