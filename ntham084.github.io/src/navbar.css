@@ -1,49 +1,69 @@
-/* Style the header */
+/* Navbar styles */
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    padding: 15px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Container for navbar items */
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
-    margin: auto;
-    padding: 0 20px;
-  }
-  
-  /* Logo styling */
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  /* Navigation links */
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links li {
-    display: inline;
-  }
-  
-  .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: color 0.3s;
-  }
-  
-  .nav-links a:hover {
-    color: #1E90FF;
-  }
-  
+  background: grey; /* Background color for the navbar */
+  width: 100%; /* Ensures the navbar spans the full width of the page */
+  height: 100px; /* Set the height of the navbar */
+  position: fixed; /* Fixes the navbar at the top of the page */
+  top: 0;
+  left: 0;
+  padding: 0; /* Remove any default padding */
+  z-index: 100; /* Ensures the navbar is on top of other elements */
+}
+
+/* Container for navbar items */
+.nav-container {
+  display: flex; /* Uses Flexbox layout to arrange items */
+  align-items: center; /* Vertically aligns items in the container */
+  justify-content: space-between; /* Spaces out the logo and navigation links */
+  padding: 0 75px; /* Adds padding to the left and right of the container */
+  height: 100%; /* Makes sure the container takes full height of navbar */
+}
+
+/* Logo styling */
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+
+.logo a {
+  color: white; /* Ensures the logo text color is white */
+  text-decoration: none; /* Removes the underline from the link */
+}
+
+/* Navigation Links Styling */
+ul {
+  list-style: none; /* Removes the default list styling */
+  display: flex; /* Uses Flexbox to display the list items horizontally */
+  gap: 20px; /* Adds space between the list items */
+  margin: 0; /* Removes default margin */
+}
+
+ul li {
+  display: inline-block; /* Ensures list items appear inline */
+}
+
+ul a {
+  color: white; /* Navigation links are white */
+  text-decoration: none; /* Removes underline from links */
+  font-size: 22px; /* Adjust font size */
+  transition: color 0.3s; /* Smooth color change on hover */
+}
+
+ul a:hover {
+  color: #1E90FF; /* Changes color on hover */
+}
+
+/* Button Styling */
+#lightModeButton {
+  padding: 10px 20px;
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#lightModeButton:hover {
+  background-color: #5c9eeb;
+}
