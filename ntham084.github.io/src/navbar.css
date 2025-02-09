@@ -1,22 +1,22 @@
 /* Navbar styles */
 .navbar {
-  background: grey; /* Background color for the navbar */
-  width: 100%; /* Ensures the navbar spans the full width of the page */
-  height: 100px; /* Set the height of the navbar */
-  position: fixed; /* Fixes the navbar at the top of the page */
+  background: grey; 
+  width: 100%; 
+  height: 100px; 
+  position: fixed; 
   top: 0;
   left: 0;
-  padding: 0; /* Remove any default padding */
-  z-index: 100; /* Ensures the navbar is on top of other elements */
+  padding: 0; 
+  z-index: 100; 
 }
 
 /* Container for navbar items */
 .nav-container {
-  display: flex; /* Uses Flexbox layout to arrange items */
-  align-items: center; /* Vertically aligns items in the container */
-  justify-content: space-between; /* Spaces out the logo and navigation links */
-  padding: 0 75px; /* Adds padding to the left and right of the container */
-  height: 100%; /* Makes sure the container takes full height of navbar */
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0 75px; 
+  height: 100%; 
 }
 
 /* Logo styling */
@@ -27,31 +27,31 @@
 }
 
 .logo a {
-  color: white; /* Ensures the logo text color is white */
-  text-decoration: none; /* Removes the underline from the link */
+  color: white; 
+  text-decoration: none; 
 }
 
 /* Navigation Links Styling */
 ul {
-  list-style: none; /* Removes the default list styling */
-  display: flex; /* Uses Flexbox to display the list items horizontally */
-  gap: 20px; /* Adds space between the list items */
-  margin: 0; /* Removes default margin */
+  list-style: none; 
+  display: flex; 
+  gap: 20px; 
+  margin: 0; 
 }
 
 ul li {
-  display: inline-block; /* Ensures list items appear inline */
+  display: inline-block;
 }
 
 ul a {
-  color: white; /* Navigation links are white */
-  text-decoration: none; /* Removes underline from links */
-  font-size: 22px; /* Adjust font size */
-  transition: color 0.3s; /* Smooth color change on hover */
+  color: white; 
+  text-decoration: none; 
+  font-size: 22px; 
+  transition: color 0.3s; 
 }
 
 ul a:hover {
-  color: #1E90FF; /* Changes color on hover */
+  color: #1E90FF; 
 }
 
 /* Button Styling */
