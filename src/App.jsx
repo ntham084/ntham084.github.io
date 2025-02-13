@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './Navbar/navbar';
-import Hero from './Hero/hero';
-import About from './About/about';
+import Navbar from './Components/Navbar/navbar';
+import Hero from './Components/Hero/hero';
+import About from './Components/About/about';
 
 
 function App() {
