@@ -9,7 +9,7 @@ const Project = () => {
             </div>
             <div className="myproject-containers">      
                 <a href="https://github.com/connorchurcott/Stormhacks-2024" target="_blank" rel="noopener noreferrer" className="myproject-container">
-                    <img src="./public/animepicture.jpg" alt="Manga Search, One Piece Picture Logo" className="project-logo" />
+                    <img src="./public/anime picture.jpg" alt="Manga Search, One Piece Picture Logo" className="project-logo" />
                     <div className="project-info">
                         <h2>Manga Search</h2>
                         <p>Manga Search is a project I worked on during a hackathon. A more detailed and better looking manga search service.</p>
