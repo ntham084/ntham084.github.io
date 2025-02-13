@@ -1,0 +1,55 @@
+.experience_section{
+    text-align: center;
+    padding: 50px;
+}
+
+.experience-title h1 {
+    font-size: 36px;
+    margin-bottom: 80px;
+}
+
+.experience-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background: linear-gradient(264deg, #4169E1 -5.09%, #B923E1 106.28%);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-logo {
+    width: 100px; 
+    height: auto;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.experience-work {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
+.experience-time {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+}
+
+.experience-description{
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
+}
+
+
