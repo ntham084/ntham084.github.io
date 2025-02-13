@@ -13,7 +13,7 @@ const Navbar = () => {
           <li><a href = "#Education">Education</a></li>
         </ul>
         <div>
-      <a href="mailto:nthamtoro@gmail.com" class="nav-connect">Connect With Me</a>
+      <a href="" class="nav-connect">Connect With Me</a>
       </div>
       </div>
     );
