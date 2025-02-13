@@ -1,9 +1,24 @@
-/* Reset */
-* {
+*{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding:0;
   }
+  
+  body{
+    height: 100vh;
+    background: #161513;
+    color: white;
+    font-family: 'outfit';
+    font-family: "Outfit", sans-serif;
+  }
+  
+  html, body {
+    width: 100%; /* Ensures body takes full width */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
   
   /* Navbar */
   .navbar {
