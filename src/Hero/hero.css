@@ -50,3 +50,22 @@
     transition: transform 0.3s ease-in-out;
 }
 
+.hero_github:hover,
+.hero_Instagram:hover,
+.hero_Linkdin:hover,
+.hero_Resume:hover{
+    border: 2px solid white;
+    transform: scale(1.05);
+}
+
+.hero-action a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.hero-action a:hover, 
+.hero-action a:focus, 
+.hero-action a:active {
+    text-decoration: none; 
+    color: inherit; 
+}
