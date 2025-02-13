@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: black; /* Set the background color to black */
-    color: white; /* Make the text white for better contrast */
+    background-color: black;
+    color: white; 
 }
 
 /* Navbar Styles */
@@ -391,7 +391,7 @@ body {
 }
 
 .footer{
-    background-color: pink;
+    background-color: #222;
     color: white;
     text-align: center;
     padding: 10px;
