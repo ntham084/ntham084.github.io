@@ -347,8 +347,8 @@ body {
 
 .education-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     width: 80%;
     background: linear-gradient(264deg, #4169E1 -5.09%, #B923E1 106.28%);
     padding: 50px;
@@ -370,25 +370,25 @@ body {
     margin-right: 20px;
 }
 
+.education-info {
+    display: flex;
+    flex-direction: column; /* Stacks the elements */
+    align-items: center; /* Centers the text elements */
+    flex: 1;
+}
 
 .education-school {
-    flex: 1;
-    text-align: center;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
 }
  
+.education-type, 
 .education-time {
-    flex: 1;
-    text-align: center;
     font-size: 18px;
+    text-align: center;
 }
 
-.education-type{
-    flex: 1;
-    text-align: center;
-    font-size: 18px;
-}
 
 .footer{
     background-color: #222;
