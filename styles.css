@@ -356,6 +356,17 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.education-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+
 .education-logo1 {
     width: 50px; 
     height: auto;
@@ -389,7 +400,6 @@ body {
     text-align: center;
     font-size: 18px;
 }
-
 
 .footer{
     background-color: #222;
