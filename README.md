@@ -1,4 +1,4 @@
-Nathan Thamtoro's Personal Website
+Nathan Thamtoro Personal Website
 
 Why did I choose MIT license?
 - I chose MIT because in terms of this project, I'm not really concerned about people copying me 
