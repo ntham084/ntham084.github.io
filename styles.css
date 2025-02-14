@@ -338,45 +338,57 @@ body {
     margin-bottom: 80px;
 }
 
+.education-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
 .education-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     width: 80%;
     background: linear-gradient(264deg, #4169E1 -5.09%, #B923E1 106.28%);
     padding: 50px;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    gap: 20px;
 }
 
-.education-logo1, 
+.education-logo1 {
+    width: 50px; 
+    height: auto;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
 .education-logo2 {
     width: 70px; 
     height: auto;
     object-fit: contain;
+    margin-right: 20px;
 }
 
-.education-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 500px;
-}
 
 .education-school {
+    flex: 1;
+    text-align: center;
     font-size: 24px;
     font-weight: bold;
-    text-align: center;
 }
  
-.education-type, 
 .education-time {
-    font-size: 18px;
+    flex: 1;
     text-align: center;
+    font-size: 18px;
 }
 
+.education-type{
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+}
 
 
 .footer{
