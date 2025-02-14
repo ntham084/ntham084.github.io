@@ -11,7 +11,6 @@ body {
     color: white; 
 }
 
-/* Navbar Styles */
 .navbar {
     top: 0;
     position: sticky;
@@ -21,6 +20,7 @@ body {
     padding: 20px;
     background-color: #222;
     color: white;
+    z-index: 1000;
 }
 
 .navbar .logo {
@@ -60,7 +60,6 @@ body {
     background-color: #B923E1;
 }
 
-/* Hero Section Styles */
 .hero {
     display: flex;
     align-items: center;
@@ -412,9 +411,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(34, 34, 34, 0.9); 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease-in-out;
+    background-color: #222; 
     z-index: 1000;
 }
 
