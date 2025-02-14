@@ -347,22 +347,26 @@ body {
 
 .education-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 80%;
     background: linear-gradient(264deg, #4169E1 -5.09%, #B923E1 106.28%);
-    padding: 50px;
+    padding: 30px; 
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 30px; 
 }
+
 
 .education-info {
     display: flex;
-    justify-content: space-between; /* Distributes space between elements */
-    align-items: center; /* Aligns them in the center */
-    gap: 20px; /* Adds spacing between items */
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 20px;
+    flex-wrap: wrap; 
 }
+
 
 .education-logo1 {
     width: 50px; 
